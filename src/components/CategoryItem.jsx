@@ -1,6 +1,11 @@
 import React from 'react'
+// import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai';
+import styled from "styled-components";
 
-const CategoryItem = () => {
+const Container = styled.div`
+`
+
+const CategoryItem = ({item}) => {
   return (
     <Container>
       
